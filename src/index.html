@@ -21,9 +21,10 @@
       margin: 100px;
       margin-bottom: 30px;
       letter-spacing: 2px;
-      word-spacing: 4px;
+      word-spacing: 3px;
       color: rgba(0, 0, 0, 60%);
     }
+
     #line{
       height: 2px;
       width: 75px;
@@ -32,17 +33,7 @@
       margin-left: 100px;
     }
     
-    #information{
-      font-size: 33px;
-      word-spacing: 4px;
-      line-height: 45px;
-      font-weight: 300;
-      margin: 100px;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      color: rgba(0, 0, 0, 50%);
-    }
-
+    
     #try-now{
       height: 70px;
       width: 76%;
@@ -55,17 +46,24 @@
     #button{
       text-transform: uppercase;
       font-size: 36px;
-      font-weight: 300;
       color: white;
       padding-top: 14px;
+    }
+
+    .information{
+      font-size: 33px;
+      word-spacing: 4px;
+      line-height: 45px;
+      font-weight: 300;
+      margin: 100px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      color: rgba(0, 0, 0, 50%);
     }
 
     #agreement{
       font-size: 24px;
       line-height: 36px;
-      word-spacing: 4px;
-      font-weight: 300;
-      margin: 100px;
       margin-top: 30px;
       margin-bottom: 60px;
       color: rgba(0, 0, 0, 40%);
@@ -76,10 +74,10 @@
   <main>
     <div id="call-to-action">
       <h1>Build your first chatbot in 10 minutes!</h1>
-      <div id="line"></div>
-      <p id="information">Have a bot answering questions from customers on your website within 10 minutes of signing up for ChatBot.</p>
-      <div id="try-now"><p id="button">try now →</p></div>
-      <p id="agreement">By clicking try now you create an account and agree to our Terms and Conditions and Privacy Policy.</p>
+      <div id="line" ></div>
+      <p class="information">Have a bot answering questions from customers on your website within 10 minutes of signing up for ChatBot.</p>
+      <div id="try-now"><p id="button" class="information">try now →</p></div>
+      <p id="agreement" class="information">By clicking try now you create an account and agree to our Terms and Conditions and Privacy Policy.</p>
     </div>
   </main>
 </body>
